@@ -1,6 +1,6 @@
 require 'formula'
 
-class Hbase < Formula
+class HbaseCdh3 < Formula
   homepage 'http://hbase.apache.org'
   url 'http://archive.cloudera.com/cdh/3/hbase-0.90.6-cdh3u5.tar.gz'
   sha1 '630f44a1f95cd28b78d631feef1552635591ddf3'

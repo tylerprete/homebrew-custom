@@ -1,6 +1,6 @@
 require 'formula'
 
-class Hive < Formula
+class HiveCdh3 < Formula
   homepage 'http://hive.apache.org'
   url 'http://archive.cloudera.com/cdh/3/hive-0.7.1-cdh3u5.tar.gz' 
   sha1 '79e9db5b8216873c7ba49eb5d35f913920460c30'
