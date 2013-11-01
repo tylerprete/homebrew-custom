@@ -59,8 +59,8 @@ class ThriftPy < Formula
       gem install thrift
 
     To install PHP bindings:
-      export PHP_PREFIX=/path/to/homebrew/thrift/0.9.0/php
-      export PHP_CONFIG_PREFIX=/path/to/homebrew/thrift/0.9.0/php_extensions
+      export PHP_PREFIX=/path/to/homebrew/thrift/0.9.1/php
+      export PHP_CONFIG_PREFIX=/path/to/homebrew/thrift/0.9.1/php_extensions
       brew install thrift --with-php
 
     EOS
