@@ -2,8 +2,8 @@ require 'formula'
 
 class ThriftPy < Formula
   homepage 'http://thrift.apache.org'
-  url 'http://www.apache.org/dyn/closer.cgi?path=thrift/0.9.0/thrift-0.9.0.tar.gz'
-  sha1 'fefcf4d729bf80da419407dfa028740aa95fa2e3'
+  url 'http://apache.cs.utah.edu/thrift/0.9.1/thrift-0.9.1.tar.gz'
+  sha1 'dc54a54f8dc706ffddcd3e8c6cd5301c931af1cc'
 
   head do
     url 'https://git-wip-us.apache.org/repos/asf/thrift.git', :branch => "master"
@@ -25,8 +25,8 @@ class ThriftPy < Formula
   # Includes are fixed in the upstream. Please remove this patch in the next version > 0.9.0
   def patches
     [
-        DATA,
-        'https://gist.github.com/tylerprete/5341876/raw/9b68271a4f6fb8e4fb0d055796537a9e88c16fd2/validation_patch.patch'
+        'https://issues.apache.org/jira/secure/attachment/12586865/thrift-1732-v3-rebased.patch',
+        'https://issues.apache.org/jira/secure/attachment/12586875/0001-Test-1732-ON.patch'
     ]
   end
 
